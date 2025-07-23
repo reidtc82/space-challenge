@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.local
+
+# Node/React
+node_modules/
+build/
+dist/
+.env
+.env.local
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Supabase
+supabase/.temp/
+supabase/.env
+
+# General
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+
+# Test/coverage
+coverage/
+*.cover
+*.pyc
+
+# Others
+*.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
