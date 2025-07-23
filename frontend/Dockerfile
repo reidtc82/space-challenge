@@ -1,4 +1,4 @@
-# Simple Dockerfile for React frontend
+# Dockerfile for React frontend
 FROM node:20-alpine
 WORKDIR /app
 COPY package.json package-lock.json ./
