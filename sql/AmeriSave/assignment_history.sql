@@ -1,11 +1,12 @@
 DROP TABLE IF EXISTS assignment_history;
+
 CREATE TABLE assignment_history (
     AssignmentID INT PRIMARY KEY,
     AgentID INT,
     CustomerName VARCHAR(100),
     CommunicationMethod VARCHAR(20),
     LeadSource VARCHAR(20),
-    AssignedDateTime DATETIME
+    AssignedDateTime TIMESTAMP
 );
 
 

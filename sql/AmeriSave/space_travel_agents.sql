@@ -9,7 +9,7 @@ CREATE TABLE space_travel_agents (
     ManagerName VARCHAR(100),
     SpaceLicenseNumber VARCHAR(20),
     YearsOfService INT,
-	AverageCustomerServiceRating FLOAT
+	AverageCustomerServiceRating DOUBLE PRECISION
 );
 
 INSERT INTO space_travel_agents (
