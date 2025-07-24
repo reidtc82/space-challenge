@@ -3,8 +3,8 @@ DROP TABLE IF EXISTS bookings;
 CREATE TABLE bookings (
     BookingID INT PRIMARY KEY,
     AssignmentID INT,
-    BookingCompleteDate TIMESTAMP,
-    CancelledDate TIMESTAMP,
+    BookingCompleteDate DATETIME,
+    CancelledDate DATETIME,
     Destination VARCHAR(50),
     Package VARCHAR(100),
     LaunchLocation VARCHAR(100),

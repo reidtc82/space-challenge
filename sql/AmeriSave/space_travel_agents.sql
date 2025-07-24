@@ -9,7 +9,7 @@ CREATE TABLE space_travel_agents (
     ManagerName VARCHAR(100),
     SpaceLicenseNumber VARCHAR(20),
     YearsOfService INT,
-	AverageCustomerServiceRating DOUBLE PRECISION
+    AverageCustomerServiceRating DOUBLE
 );
 
 INSERT INTO space_travel_agents (
@@ -22,7 +22,7 @@ INSERT INTO space_travel_agents (
     ManagerName,
     SpaceLicenseNumber,
     YearsOfService,
-	AverageCustomerServiceRating
+    AverageCustomerServiceRating
 
 ) VALUES
 (1, 'Aurora', 'Tanaka', 'aurora.tanaka@astra2081.com', 'Senior Space Travel Agent', 'Interplanetary Sales', 'Lyra Chen', 'SL-2081-001', 12, 4.0),

@@ -6,7 +6,7 @@ CREATE TABLE assignment_history (
     CustomerName VARCHAR(100),
     CommunicationMethod VARCHAR(20),
     LeadSource VARCHAR(20),
-    AssignedDateTime TIMESTAMP
+    AssignedDateTime DATETIME
 );
 
 
