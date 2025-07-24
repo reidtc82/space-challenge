@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS assignment_history;
+
 CREATE TABLE assignment_history (
     AssignmentID INT PRIMARY KEY,
     AgentID INT,
