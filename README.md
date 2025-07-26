@@ -1,8 +1,11 @@
 # space-challenge
 
 **Algorithm Challenge**
+
 ***Submission***
+
 ***Reid Case***
+
 ***07/25/2025***
 
 Submission is contained in ./sql/ReidCase/ as a single file called DDL_submission_algorithm.sql. This file only contains DDL to establish indexes, create a view, and create a stored procedure as requested. Syntax is compliant with MySQL deduced from the provided .txt files with DDL to set up the database tables and perform inserts. 
@@ -18,8 +21,11 @@ Additional folders were for extended development and analysis.
 There is a docker-compose file that can be run using basic command $docker-compose up --build assuming docker is installed and running on the host machine. A .env file will need to be created and the following contents filled in:
 
 MYSQL_ROOT_PASSWORD=whateverrootpasswordyouwant
+
 MYSQL_DATABASE=whateveryouwanttonamethedatabase
+
 MYSQL_USER=someuserforit
+
 MYSQL_PASSWORD=andapasswrodforthatuser
 
 The docker-compose file will take care of the rest. It will use the sql in ./sql/InitDatabase/ to set up the database and create the other assets. 
